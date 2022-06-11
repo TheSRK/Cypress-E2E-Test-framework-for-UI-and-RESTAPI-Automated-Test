@@ -30,4 +30,5 @@ git clone https://github.com/TheSRK/brikl-assignments
 
 
 ✔️ #Run tests
+
 For headless mode in chrome run following command: 'npm run cypress:run'
