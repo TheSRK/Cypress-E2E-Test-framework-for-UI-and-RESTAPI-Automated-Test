@@ -1,7 +1,9 @@
 # brikl-assignments
 
 application under test
+
 task-1: https://store.briklshop.com/en/coffee%20mug
+
 task-2: https://store.briklshop.com/en/store/salut-partners/
 
  # 🥅 Goals
