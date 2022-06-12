@@ -39,3 +39,13 @@ Cypress.Commands.add('clickBtnDesignNow', ()=>{
     //cy.xpath('//p[contains(text(),"Select a design")]',{timeout:10000}).should('be.visible')
     cy.contains('Select a design').should('be.visible')
 })
+
+Cypress.Commands.add('productDetailsPageCurrency', (index, currency)=>{
+    //click product 
+    cy.get('[data-cy="product-card-link"]').eq(index).should('be.visible').click()
+    //check currency conversion in the product details page
+    cy.get('[data-cy="product-price"]').scrollIntoView().should('contain', currency)
+
+    //Go back and then check product row should be visible
+    cy.go('back').get('.css-z3zsio').scrollIntoView().should('be.visible')
+})

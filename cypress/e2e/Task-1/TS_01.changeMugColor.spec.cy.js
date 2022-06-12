@@ -1,3 +1,5 @@
+Cypress.config('pageLoadTimeout', 100000)
+
 describe("User try out the Studio Demo by changing mug color", () => {
     it("should visit site url", () => {
 

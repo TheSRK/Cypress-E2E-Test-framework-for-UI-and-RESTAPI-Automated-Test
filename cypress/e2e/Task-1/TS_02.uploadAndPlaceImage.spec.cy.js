@@ -1,3 +1,5 @@
+Cypress.config('pageLoadTimeout', 100000)
+
 describe('User able to upload image and place on model', ()=>{
     it("should visit site url", () => {
 

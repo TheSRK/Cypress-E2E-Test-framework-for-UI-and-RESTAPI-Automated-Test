@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:run": "cypress run --headless --browser chrome --spec cypress/e2e/Task-1/**/*"
+    "cypress:run:task-1": "cypress run --headless --browser chrome --spec cypress/e2e/Task-1/**/*",
+    "cypress:run:task-2": "cypress run --headless --browser chrome --spec cypress/e2e/Task-2/**/*",
+    "cypress:open:all": "cypress run --headed"
   },
   "keywords": [],
   "author": "",
