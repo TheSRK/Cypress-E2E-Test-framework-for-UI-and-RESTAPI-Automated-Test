@@ -28,18 +28,18 @@ studio page
  # ⚙️Setup
 
 git clone https://github.com/TheSRK/brikl-assignments
-'cd' to brikl-assignments folder and run 'npm install'
+```cd``` to brikl-assignments folder and run ```npm install ```
 
 
  # ✔️Run tests
 
 For headless mode in chrome run following command: 
-  'npm run cypress:run:task-1'
-  'npm run cypress:run:task-2'
+  ```npm run cypress:run:task-1```
+  ```npm run cypress:run:task-2```
   
-To run all the specs in headed mode: 'npm run cypress:open:all'
+To run all the specs in headed mode:```npm run cypress:open:all```
 
 
 # Test Cases
 
-Inside fixtures test cases for Task-2 can be found https://github.com/TheSRK/brikl-assignments/blob/main/cypress/fixtures/Test%20Cases%20-%20brikl%20assignment%20.xlsx
+Inside fixtures [test cases for Task-2](https://github.com/TheSRK/brikl-assignments/blob/main/cypress/fixtures/Test%20Cases%20-%20brikl%20assignment%20.xlsx) can be found 
