@@ -29,8 +29,13 @@ studio page
 
  # ⚙️Setup
 
-git clone https://github.com/TheSRK/brikl-assignments
-```cd``` to brikl-assignments folder and run ```npm install ```
+install node.js in your system (version >= 10)
+
+Then run the following command from the terminal ```npm install npm --global```
+
+Then run ```git clone https://github.com/TheSRK/brikl-assignments```
+
+Then run ```cd brikl-assignments``` to go inside the folder and then run ```npm install ```
 
 
  # ✔️Run tests
