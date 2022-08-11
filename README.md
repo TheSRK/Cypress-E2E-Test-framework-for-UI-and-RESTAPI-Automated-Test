@@ -1,5 +1,3 @@
-# brikl-assignments
-
 application under test
 
 task-1: https://store.briklshop.com/en/coffee%20mug
@@ -35,7 +33,7 @@ Then run the following command from the terminal ```npm install npm --global```
 
 Then run ```git clone https://github.com/TheSRK/brikl-assignments```
 
-Then run ```cd brikl-assignments``` to go inside the folder and then run ```npm install ```
+Then run ```cd {folder-name}``` to go inside the folder and then run ```npm install ```
 
 
  # ✔️Run tests
@@ -49,4 +47,4 @@ To run all the specs in headed mode:```npm run cypress:open:all```
 
 # Test Cases
 
-Inside fixtures [test cases for Task-2](https://github.com/TheSRK/brikl-assignments/blob/main/cypress/fixtures/Test%20Cases%20-%20brikl%20assignment%20.xlsx) can be found 
+Inside fixtures [test cases for Task-2](https://github.com/TheSRK/modern-ui-automation-using-cypress/blob/main/cypress/fixtures/Test%20Cases%20-%20brikl%20assignment%20.xlsx) can be found 
